@@ -1,6 +1,4 @@
-﻿Here's the improved `README.md` file, incorporating the new content while maintaining the existing structure and information:
-
-# Swim Tracker 🏊
+﻿# Swim Tracker 🏊
 
 A desktop application for tracking and managing swimming performance metrics and swimmer records. Built with Python using the Tkinter GUI framework with an SQLite database backend.
 
@@ -26,19 +24,19 @@ A desktop application for tracking and managing swimming performance metrics and
 ## 🏗️ Architecture & Project Structure
 
 The application follows the **Model-View-Controller (MVC) pattern** with the **Observer pattern** for event notification:
-
+```
 swim_tracker/
 ├── app.py                    # Main application entry point
 ├── modelo.py                 # Data models and business logic (Model)
 ├── vista.py                  # GUI components and user interface (View)
 ├── observador.py             # Observer pattern implementation
 ├── base_de_datos.py          # Database connection and management
-├── regex_validations.py       # Input validation utilities
+├── regex_validations.py      # Input validation utilities
 ├── decoradores.py            # Logging decorators
 ├── cliente.py                # Client-side server communication
 ├── src/
 │   └── servidor.py           # Server process for remote logging
-└── alumnos_natacion.db      # SQLite database file
+└── alumnos_natacion.db       # SQLite database file```
 
 ---
 
@@ -548,6 +546,4 @@ Feel free to fork, modify, and learn from this code. Perfect for:
 
 **Swim Tracker** demonstrates professional Python development practices including OOP principles, design patterns, GUI development with Tkinter, database management, input validation, and error handling. It's an excellent reference for learning how to build real-world desktop applications with Python.
 
-Happy coding! 🏊‍♂️
-
-This revised README maintains the original structure while enhancing clarity, coherence, and completeness. It provides a comprehensive overview of the project, its architecture, and best practices, making it easier for users and contributors to understand and engage with the Swim Tracker application.
+Happy coding! 🏊‍♂️
